@@ -32,6 +32,7 @@ componentDidMount() {
     return (
       <div className="App">
         <NavBar/>
+        <h2>Players:</h2>
       <PlayersCard players={this.state.players}/>
       </div>
     );

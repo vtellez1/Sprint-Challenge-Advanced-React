@@ -6,11 +6,11 @@ console.log(props.players);
 
 return( 
     <div className="PlayersCardContainer">
-        <h2>Players:</h2>
+        
         <div className="PlayersCard">
        {props.players.map(person => (
            <div key={person.id}>
-               <h3>Name: {person.name}</h3>
+               <h3 data-testid="name">Name: {person.name}</h3>
                <p>Country: {person.country}</p>
                <p>Searches: {person.searches}</p>
             </div>
