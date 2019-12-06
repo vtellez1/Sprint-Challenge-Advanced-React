@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import PlayersCard from "./components/PlayersCard";
+import NavBar from "./components/NavBar";
 
 class App extends React.Component {
 
@@ -30,6 +31,7 @@ componentDidMount() {
   render(){
     return (
       <div className="App">
+        <NavBar/>
       <PlayersCard players={this.state.players}/>
       </div>
     );
