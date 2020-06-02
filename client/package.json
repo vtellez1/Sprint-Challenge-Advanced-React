@@ -10,8 +10,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --watchAll",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.17.2",
+    "@testing-library/react": "^9.3.2"
   },
   "eslintConfig": {
     "extends": "react-app"
